@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="header.master.cs" Inherits="cars.header" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet2.css" rel="stylesheet" />
+</head>
+<body >
+    <div class="header-container">
+        <div class="spacer"></div>
+
+        <h1 class="header-name "><a href="home-page.aspx"> אתר מכוניות</a></h1>
+
+        <nav class="logininfo">
+            <a href="">התחבר\הירשם</a>
+            <h5>'שלום משתמש'</h5>
+        </nav>
+    </div>
+        
+    <nav class =" navbar">
+        <a href="home-page.aspx">דף הבית</a> &nbsp |&nbsp
+        <a href="">דף</a>&nbsp |&nbsp
+        <a href="">דף</a>&nbsp |&nbsp
+        <a href="">דף</a>&nbsp |&nbsp
+        <a href="">דף</a>
+    </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+</body>
+</html>
