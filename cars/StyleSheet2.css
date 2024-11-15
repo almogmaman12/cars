@@ -1,39 +1,36 @@
 ﻿/*header start*/
 .header-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items:  center;
     position: relative;
     padding: 10px;
     color: #dafdff;
-    background: linear-gradient(to bottom, #003366, #00aaff);
+    background: linear-gradient(to bottom,#003366, #007ac2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 40px;
-    margin-top: 2px;
+    border-radius: 20px;
     margin: 5px 10px 0 10px;
 }
 
 .navbar {
-    background: linear-gradient(to top, #003366, #00aaff);
+    background: linear-gradient(to top, #003366, #007ac2);
     display: block;
     width: fit-content;
-    padding: 2.5px 0px;
-    border-radius: 0px 0px 40px 40px;
+    padding: 5px 5px;
+    border-radius: 1px 1px 20px 20px;
     margin: 0 auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+
 nav {
     text-align: center;
     font-weight: 600;
-    font-size:large;
+    font-size: large;
     color: white;
     padding: 5px 0px;
     margin-top: 8px;
-
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
@@ -50,6 +47,7 @@ a {
 }
 
 body {
+    direction:rtl;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -63,9 +61,10 @@ body {
     display: flex;
     align-items: center;
     font-size: smaller;
+    transform: translateX(615%);
 }
 
-    .logininfo a, .logininfo h5 {
+    .logininfo a, .logininfo h4 {
         margin: 0 10px;
     }
 
@@ -90,11 +89,11 @@ nav a {
     margin: 0 10px;
     padding: 10px 20px;
     border-radius: 50px;
-    transition: background-color 0.3s ease, transform 0.2s ease; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 a:hover {
-    color: #dafdff;
+    color: #00aaff;
     text-decoration: underline;
 }
 
@@ -105,9 +104,60 @@ a:hover {
 
 nav a:hover {
     background-color: #ffffff33;
+}
+.header-name a:hover, .logininfo a:hover {
+    color: #00aaff;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    button:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+/* Footer Section */
+.footer-container {
+    background-color: #003366;
+    color: #dafdff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 0 0 0px 0px;
+    margin-top: 15px;
     
 }
 
+    .footer-container a {
+        color: #dafdff;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+
+        .footer-container a:hover {
+            text-decoration: underline;
+        }
+
+    .footer-container p {
+        margin: 5px 0;
+        font-size: 14px;
+        
+    }
 
 
+section {
+    min-height: 78.2vh; 
+    display: flex;
+    flex-direction: column;
+}
 
+.content {
+    flex: 1; 
+}
