@@ -26,6 +26,7 @@ body {
     cursor: pointer;
     overflow: hidden;
     position: relative;
+    background-color: #f9f9f9;
 }
 
 .card-content {
@@ -91,7 +92,7 @@ body {
 }
 .card:hover {
     background-color: #f0f0f0; /* שינוי צבע כשעוברים עם העכבר */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* הוספת הצללה */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* הוספת הצללה */
 }
 .expand-text {
     font-size: 14px;
