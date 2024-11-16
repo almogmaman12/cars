@@ -12,11 +12,11 @@
 <body >
     <div class="main-container">
     <div class="header-container">
-        <div class="spacer"></div>
+
 
         <h1 class="header-name "><a href="home-page.aspx"> אתר מכוניות</a></h1>
 
-        <nav class="logininfo" >
+        <nav class="logininfo">
             <a href="">התחבר\הירשם</a>
             <h4>'שלום משתמש'</h4>
         </nav>

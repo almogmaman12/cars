@@ -1,7 +1,7 @@
 ﻿/*header start*/
 .header-container {
     display: flex;
-    align-items:  center;
+    align-items: center;
     position: relative;
     padding: 10px;
     color: #dafdff;
@@ -47,7 +47,7 @@ a {
 }
 
 body {
-    direction:rtl;
+    direction: rtl;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -61,16 +61,11 @@ body {
     display: flex;
     align-items: center;
     font-size: smaller;
-    transform: translateX(615%);
+
 }
 
-    .logininfo a, .logininfo h4 {
-        margin: 0 10px;
-    }
 
-.spacer {
-    flex: 1;
-}
+
 
 /*header end*/
 
@@ -105,9 +100,11 @@ a:hover {
 nav a:hover {
     background-color: #ffffff33;
 }
+
 .header-name a:hover, .logininfo a:hover {
     color: #00aaff;
 }
+
 button {
     background-color: #007bff;
     color: white;
@@ -132,7 +129,6 @@ button {
     padding: 5px 0;
     border-radius: 0 0 0px 0px;
     margin-top: 15px;
-    
 }
 
     .footer-container a {
@@ -148,16 +144,13 @@ button {
     .footer-container p {
         margin: 5px 0;
         font-size: 14px;
-        
     }
 
 
 section {
-    min-height: 78.2vh; 
+    min-height: 77vh;
     display: flex;
     flex-direction: column;
 }
 
-.content {
-    flex: 1; 
-}
+
