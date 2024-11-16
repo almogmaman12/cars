@@ -64,8 +64,13 @@ body {
 
 }
 
+    .logininfo a, .logininfo h4 {
+        margin: 0 10px;
+    }
 
+.spacer {
 
+}
 
 /*header end*/
 
@@ -148,9 +153,11 @@ button {
 
 
 section {
-    min-height: 77vh;
+    min-height: 78.2vh;
     display: flex;
     flex-direction: column;
 }
 
-
+.content {
+    flex: 1;
+}
