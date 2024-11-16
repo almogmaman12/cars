@@ -122,7 +122,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="home-page.aspx" />
+    <Content Include="imges\toyota.png" />
     <Content Include="imges\logocar.png" />
+    <Content Include="models.aspx" />
+    <Content Include="models.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -226,6 +229,13 @@
     </Compile>
     <Compile Include="home-page.aspx.designer.cs">
       <DependentUpon>home-page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="models.aspx.cs">
+      <DependentUpon>models.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="models.aspx.designer.cs">
+      <DependentUpon>models.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

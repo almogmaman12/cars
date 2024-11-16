@@ -1,0 +1,112 @@
+﻿/* הגדרות בסיסיות */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* כרטיסיה רגילה */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-content {
+    display: block;
+}
+
+.card img.logo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    margin: 0;
+    color: #666;
+}
+
+/* התוכן המורחב */
+.expanded-content {
+    display: none; /* מוסתר כברירת מחדל */
+    margin-top: 20px;
+}
+
+/* עיצוב כאשר הכרטיסיה מורחבת */
+.card.expanded {
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+    z-index: 10;
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+}
+
+    .card.expanded .expanded-content {
+        display: block; /* מציג את התוכן המורחב */
+    }
+
+    .card.expanded .card-content {
+        display: none; /* מסתיר את התוכן הרגיל */
+    }
+
+/* עיצוב נוסף לפי הצורך */
+/* עיצוב הכותרת של הכרטיסיה */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+    .header .logo {
+        width: 48px; /* הגדרת רוחב מתאים ללוגו */
+        height: auto;
+        margin-right: 10px;
+    }
+.link {
+    text-decoration: underline;
+    color: #0066cc;
+}
+.card:hover {
+    background-color: #f0f0f0; /* שינוי צבע כשעוברים עם העכבר */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* הוספת הצללה */
+}
+.expand-text {
+    font-size: 14px;
+    color: #007bff;
+    text-align: center;
+    cursor: pointer;
+}
+.expand-icon {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+    color: #003366; /* צבע חץ */
+}
+
+.card.expanded .expand-icon {
+    transform: rotate(180deg); /* סיבוב החץ כשהכרטיס מורחב */
+}
