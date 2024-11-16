@@ -35,7 +35,7 @@
         </div>
     <footer class="footer-container">
     <p>© 2024 אתר מכוניות. כל הזכויות שמורות.</p>
-    <p><a href="#">דף הבית</a> |<a href="models.aspx">דגמי רכב</a>| <a href="#">דף</a>| <a href="#">דף</a>| <a href="#">התחבר</a></p>
+    <p><a href="home-page.aspx">דף הבית</a> |<a href="models.aspx">דגמי רכב</a>| <a href="#">דף</a>| <a href="#">דף</a>| <a href="#">התחבר</a></p>
 </footer>
         </div>
 

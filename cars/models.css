@@ -37,12 +37,14 @@ body {
     width: 50px;
     height: auto;
     margin-bottom: 10px;
+    transition: width 0.3s ease-in-out, margin 0.3s ease-in-out;
 }
 
 .card h3 {
     margin: 0;
     font-size: 20px;
     color: #333;
+    transition: font-size 0.3s ease-in-out; /* הוספת אנימציה להקטנה */
 }
 
 .card p {
@@ -52,7 +54,7 @@ body {
 
 /* התוכן המורחב */
 .expanded-content {
-    display: none; /* מוסתר כברירת מחדל */
+    display: none;
     margin-top: 20px;
 }
 
@@ -66,46 +68,76 @@ body {
     transform: scale(1.05);
 }
 
-    .card.expanded .expanded-content {
-        display: block; /* מציג את התוכן המורחב */
+/* ריחוף על כרטיסיה */
+.card:hover {
+    background-color: #f0f0f0; /* שינוי צבע כשעוברים עם העכבר */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.card.expanded .expanded-content {
+    display: block; /* מציג את התוכן המורחב */
+}
+
+.card.expanded .card-content {
+    display: block; /* לא מסתיר את התוכן הרגיל */
+}
+
+    /* הסתרת התיאור כאשר הכרטיס מורחב */
+    .card.expanded .card-content p {
+        display: none;
     }
 
-    .card.expanded .card-content {
-        display: none; /* מסתיר את התוכן הרגיל */
-    }
-
-/* עיצוב נוסף לפי הצורך */
 /* עיצוב הכותרת של הכרטיסיה */
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    width: 100%;
 }
 
+    /* כותרת ולוגו */
     .header .logo {
-        width: 48px; /* הגדרת רוחב מתאים ללוגו */
+        width: 50px;
         height: auto;
         margin-right: 10px;
+        transition: width 0.3s ease; /* הוספת אנימציה להקטנה של הלוגו */
     }
+
+.card.expanded .header .logo {
+    width: 40px; /* לוגו קטן יותר בזמן שהכרטיס מורחב */
+}
+
+.card.expanded h3 {
+    font-size: 16px; /* כותרת קטנה יותר בזמן שהכרטיס מורחב */
+}
+
+/* עיצוב כותרת */
+.header h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* קישורים */
 .link {
     text-decoration: underline;
     color: #0066cc;
 }
-.card:hover {
-    background-color: #f0f0f0; /* שינוי צבע כשעוברים עם העכבר */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* הוספת הצללה */
-}
+
+/* טקסט לחץ להרחבה */
 .expand-text {
     font-size: 14px;
     color: #007bff;
     text-align: center;
     cursor: pointer;
 }
+
+/* חץ */
 .expand-icon {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 0px;
+    font-size: 20px; /* חץ בגודל נאה */
     cursor: pointer;
-    color: #003366; /* צבע חץ */
+    color: #003366;
 }
 
 .card.expanded .expand-icon {
