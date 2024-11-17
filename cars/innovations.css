@@ -1,15 +1,9 @@
 ﻿/* עיצוב הכללי */
 .industry-page-container {
-    padding: 30px;
+    padding: 0px;
 }
 
-.title {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: #333;
-    font-weight: 700;
-}
+
 
 /* עיצוב כרטיסים */
 .card-container {
@@ -52,7 +46,7 @@
     transform: translateY(-10px); /* הזזה קלה למעלה */
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2); /* צללים מוגברים */
     background: linear-gradient(145deg, #005f99, #007ac2); /* שינוי גרדיאנט */
-    color:white;
+    color: white;
 }
 
 /* תוכן של כל נושא */

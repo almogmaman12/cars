@@ -3,6 +3,9 @@
     <link href="models.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="title-container">
+     <h1 class="title">דגמי רכב</h1>
+         </div>
     <section>
         <div class="container">
             <!-- כרטיסיה -->
@@ -25,6 +28,8 @@
                     <p>דגם 4: טויוטה היילנדר - רכב שטח משפחתי.</p>
                 </div>
             </div>
+            <!-- כרטיסיה -->
+
         </div>
     </section>
     <script>

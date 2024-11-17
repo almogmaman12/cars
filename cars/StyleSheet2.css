@@ -60,27 +60,14 @@ body {
     display: flex;
     align-items: center;
     font-size: smaller;
-
 }
 
-    .logininfo a, .logininfo h4 {
 
-    }
-
-.spacer {
-
-}
 
 /*header end*/
 
 /* Title Styling */
-.title {
-    text-align: center;
-    margin: 25px 0;
-    color: #2d2d2d;
-    font-size: 28px;
-    font-weight: 600;
-}
+
 
 /* Navigation Links Styling */
 nav a {
@@ -172,5 +159,28 @@ header, .navbar, .footer-container {
     flex-grow: 1;
     padding: 20px;
 }
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #003366, #007ac2);
+    border-radius: 50px;
+    width: 80%;
+    max-width: 450px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background 0.3s ease;
+    display: block;
+}
 
-
+    .title:hover {
+        transform: translateY(-5px);
+        background: linear-gradient(to right, #007ac2, #003366);
+    }
+.title-container {
+    display: flex;
+    justify-content: center; /* מרכז את התוכן אופקית */
+    margin: 0;
+    margin-bottom:40px;
+}

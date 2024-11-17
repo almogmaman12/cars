@@ -5,8 +5,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="industry-page-container">
+        <div class="title-container">
         <h1 class="title">חידושים בתעשייה</h1>
-
+            </div>
         <!-- כרטיסים -->
         <section class="card-container">
             <a href="#autonomous" class="card">
