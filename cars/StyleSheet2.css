@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    justify-content: center;
     padding: 10px;
     color: #dafdff;
     background: linear-gradient(to bottom,#003366, #007ac2);
@@ -10,8 +11,15 @@
     border-radius: 20px;
     margin: 5px 10px 0 10px;
 }
+    .header-container img {
+        max-height: 50px; /* Adjust the size of the logo */
+        margin-left: 30px;
+    }
 
-.navbar {
+
+
+
+        .navbar {
     background: linear-gradient(to top, #003366, #007ac2);
     display: block;
     width: fit-content;
@@ -40,10 +48,8 @@ a {
     margin-top: 0px;
     margin-bottom: 5px;
     margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     font-weight: 700;
+    padding-left:30px;
 }
 
 body {
@@ -60,6 +66,10 @@ body {
     display: flex;
     align-items: center;
     font-size: smaller;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 

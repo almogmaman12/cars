@@ -12,9 +12,7 @@
 <body >
     <div class="main-container">
     <div class="header-container">
-
-
-        <h1 class="header-name "><a href="home-page.aspx"> אתר מכוניות</a></h1>
+        <h1 class="header-name "><a href="home-page.aspx"><img src="imges/logocar.png"/> אתר מכוניות</a></h1>
 
         <nav class="logininfo" >
             <a href="">התחבר\הירשם</a>
@@ -34,7 +32,7 @@
             </asp:ContentPlaceHolder>
         </div>
     <footer class="footer-container">
-    <p>© 2024 אתר מכוניות. כל הזכויות שמורות.</p>
+    <p> אתר מכוניות.</p>
     <p><a href="home-page.aspx">דף הבית</a> |<a href="models.aspx">דגמי רכב</a>| <a href="Industry Innovations.aspx">חידושים בתעשייה</a>| <a href="#">דף</a>| <a href="#">התחבר</a></p>
 </footer>
         </div>
