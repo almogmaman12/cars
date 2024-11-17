@@ -122,13 +122,12 @@ body {
 /* קישורים */
 .link {
     text-decoration: underline;
-    color: #0066cc;
+    color: black;
 }
 
 /* טקסט לחץ להרחבה */
 .expand-text {
-    font-size: 14px;
-    color: #007bff;
+    font-size: 10px;
     text-align: center;
     cursor: pointer;
 }

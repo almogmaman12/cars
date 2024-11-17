@@ -124,6 +124,7 @@
     <Content Include="home-page.aspx" />
     <Content Include="imges\toyota.png" />
     <Content Include="imges\logocar.png" />
+    <Content Include="Industry Innovations.aspx" />
     <Content Include="models.aspx" />
     <Content Include="models.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="home-page.aspx.designer.cs">
       <DependentUpon>home-page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Industry Innovations.aspx.cs">
+      <DependentUpon>Industry Innovations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Industry Innovations.aspx.designer.cs">
+      <DependentUpon>Industry Innovations.aspx</DependentUpon>
     </Compile>
     <Compile Include="models.aspx.cs">
       <DependentUpon>models.aspx</DependentUpon>
