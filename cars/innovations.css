@@ -43,9 +43,9 @@
 
 /* שינוי הצבע של כרטיס בעת hover */
 .card:hover {
-    transform: translateY(-10px); /* הזזה קלה למעלה */
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2); /* צללים מוגברים */
-    background: linear-gradient(145deg, #005f99, #007ac2); /* שינוי גרדיאנט */
+    transform: translateY(-30px); /* הזזה למעלה */
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2); 
+    background: linear-gradient(145deg, #005f99, #007ac2); 
     color: white;
 }
 
