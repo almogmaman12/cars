@@ -127,7 +127,7 @@ body {
 
 /* טקסט לחץ להרחבה */
 .expand-text {
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     cursor: pointer;
 }

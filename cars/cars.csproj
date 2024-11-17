@@ -125,6 +125,7 @@
     <Content Include="imges\toyota.png" />
     <Content Include="imges\logocar.png" />
     <Content Include="Industry Innovations.aspx" />
+    <Content Include="innovations.css" />
     <Content Include="models.aspx" />
     <Content Include="models.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />

@@ -1,0 +1,98 @@
+﻿/* עיצוב הכללי */
+.industry-page-container {
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 700;
+}
+
+/* עיצוב כרטיסים */
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap; /* מאפשר יישור מחדש אם אין מקום */
+}
+
+.card {
+    background: linear-gradient(145deg, #007ac2, #005f99); /* גרדיאנט צבעים */
+    color: #dafdff;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    padding: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease; /* הוספתי מעבר גם לצבע הרקע */
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* צללים עדינים */
+}
+
+/* תוכן של כל כרטיס */
+.card-content h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.card-content p {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+/* שינוי הצבע של כרטיס בעת hover */
+.card:hover {
+    transform: translateY(-10px); /* הזזה קלה למעלה */
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2); /* צללים מוגברים */
+    background: linear-gradient(145deg, #005f99, #007ac2); /* שינוי גרדיאנט */
+    color:white;
+}
+
+/* תוכן של כל נושא */
+.content-section {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* מגביל את הרוחב של התוכן */
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* הוספתי מעבר לרקע */
+}
+
+    /* אפקט ה-hover של התוכן */
+    .content-section:hover {
+        transform: scale(1.03); /* הגדלה קלה */
+        box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15); /* צללים מוגברים */
+        background-color: #f0f8ff; /* צבע רקע בהיר בעת hover */
+    }
+
+    .content-section h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .content-section p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    /* ריווחי קישורים */
+    .content-section a {
+        color: #007ac2;
+        font-weight: bold;
+    }
+
+        .content-section a:hover {
+            text-decoration: underline;
+        }
