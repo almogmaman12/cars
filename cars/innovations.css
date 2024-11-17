@@ -17,8 +17,8 @@
 .card {
     background: linear-gradient(145deg, #007ac2, #005f99); /* גרדיאנט צבעים */
     color: #dafdff;
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 15px;
     padding: 100px;
     cursor: pointer;
