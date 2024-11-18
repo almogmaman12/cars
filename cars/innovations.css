@@ -1,4 +1,4 @@
-﻿/* עיצוב הכללי */
+﻿
 .industry-page-container {
     padding: 0px;
 }
@@ -11,21 +11,21 @@
     gap: 30px;
     justify-content: center;
     margin-bottom: 50px;
-    flex-wrap: wrap; /* מאפשר יישור מחדש אם אין מקום */
+    flex-wrap: wrap;
 }
 
 .card {
-    background: linear-gradient(145deg, #007ac2, #005f99); /* גרדיאנט צבעים */
+    background: linear-gradient(145deg, #007ac2, #005f99);
     color: #dafdff;
     width: 250px;
     height: 250px;
     border-radius: 15px;
     padding: 100px;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease; /* הוספתי מעבר גם לצבע הרקע */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* צללים עדינים */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
 }
 
 /* תוכן של כל כרטיס */
@@ -41,32 +41,32 @@
     font-weight: 300;
 }
 
-/* שינוי הצבע של כרטיס בעת hover */
+/* שינוי הצבע של כרטיס בעת ריחוף */
 .card:hover {
-    transform: translateY(-30px); /* הזזה למעלה */
+    transform: translateY(-30px);
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2); 
     background: linear-gradient(145deg, #005f99, #007ac2); 
     color: white;
 }
 
-/* תוכן של כל נושא */
+/* תוכן של נושא */
 .content-section {
     margin-top: 50px;
     padding: 40px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    max-width: 90%; /* מגביל את הרוחב של התוכן */
+    max-width: 90%; 
     margin-left: auto;
     margin-right: auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* הוספתי מעבר לרקע */
 }
 
-    /* אפקט ה-hover של התוכן */
+    /* אפקט ריחוף לתוכן */
     .content-section:hover {
-        transform: scale(1.03); /* הגדלה קלה */
-        box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15); /* צללים מוגברים */
-        background-color: #f0f8ff; /* צבע רקע בהיר בעת hover */
+        transform: scale(1.05);
+        box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+        background-color: #f0f8ff;
     }
 
     .content-section h2 {
@@ -81,7 +81,7 @@
         color: #555;
     }
 
-    /* ריווחי קישורים */
+    /*  קישורים */
     .content-section a {
         color: #007ac2;
         font-weight: bold;
