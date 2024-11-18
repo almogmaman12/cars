@@ -4,7 +4,7 @@
     align-items: center;
     position: relative;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     color: #dafdff;
     background: linear-gradient(to bottom,#003366, #007ac2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +12,7 @@
     margin: 5px 10px 0 10px;
 }
     .header-container img {
-        max-height: 50px; /* Adjust the size of the logo */
+        max-height: 38px; /* Adjust the size of the logo */
         margin-left: 30px;
     }
 
@@ -32,10 +32,8 @@
 nav {
     text-align: center;
     font-weight: 600;
-    font-size: large;
+    font-size: 14px;
     color: white;
-    padding: 5px 0px;
-    margin-top: 8px;
 }
 
 a {
@@ -44,9 +42,8 @@ a {
 
 .header-name {
     text-align: center;
-    font-size: 48px;
+    font-size: 38px;
     margin-top: 0px;
-    margin-bottom: 5px;
     margin: 0;
     font-weight: 700;
     padding-left:30px;
@@ -54,8 +51,7 @@ a {
 
 body {
     direction: rtl;
-    margin: 0;
-    padding: 0;
+
     font-family: 'Roboto', sans-serif;
     background-color: #f0f4f8;
     line-height: 1.6;
@@ -76,7 +72,6 @@ body {
 
 /*header end*/
 
-/* Title Styling */
 
 
 /* Navigation Links Styling */
@@ -145,7 +140,7 @@ button {
 
     .footer-container p {
         margin: 5px 0;
-        font-size: 14px;
+        font-size: 12px;
 
     }
 

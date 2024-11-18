@@ -122,9 +122,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="guides.aspx" />
+    <Content Include="guides.css" />
     <Content Include="home-page.aspx" />
-    <Content Include="imges\toyota.png" />
     <Content Include="imges\logocar.png" />
+    <Content Include="imges\toyota.png" />
     <Content Include="Industry Innovations.aspx" />
     <Content Include="innovations.css" />
     <Content Include="models.aspx" />
