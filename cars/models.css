@@ -75,11 +75,11 @@ body {
 }
 
 .card.expanded .expanded-content {
-    display: block; /* מציג את התוכן המורחב */
+    display: block;
 }
 
 .card.expanded .card-content {
-    display: block; /* לא מסתיר את התוכן הרגיל */
+    display: block; 
 }
 
     /* הסתרת התיאור כאשר הכרטיס מורחב */

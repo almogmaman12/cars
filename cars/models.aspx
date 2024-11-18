@@ -34,7 +34,6 @@
     </section>
     <script>
         function expandCard(card) {
-            // הוספת מחלקה לכרטיסיה שתאפשר את ההתרחבות שלה
             card.classList.toggle('expanded');
         }
     </script>
