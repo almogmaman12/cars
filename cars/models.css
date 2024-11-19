@@ -45,6 +45,7 @@ body {
     font-size: 20px;
     color: #333;
     transition: font-size 0.3s ease-in-out; /* הוספת אנימציה להקטנה */
+
 }
 
 .card p {
@@ -76,6 +77,8 @@ body {
 
 .card.expanded .expanded-content {
     display: block;
+    margin-top: 0px;
+    padding-top:0px;
 }
 
 .card.expanded .card-content {
@@ -107,10 +110,12 @@ body {
 
 .card.expanded .header .logo {
     width: 40px; /* לוגו קטן יותר בזמן שהכרטיס מורחב */
+    margin-bottom: 0px;
 }
 
 .card.expanded h3 {
     font-size: 16px; /* כותרת קטנה יותר בזמן שהכרטיס מורחב */
+    margin-bottom:0px;
 }
 
 /* עיצוב כותרת */
@@ -141,4 +146,11 @@ body {
 
 .card.expanded .expand-icon {
     transform: rotate(180deg); /* סיבוב החץ כשהכרטיס מורחב */
+}
+.company {
+    font-size: 20px;
+    font-weight:800;
+    color: black;
+    text-decoration: underline;
+
 }

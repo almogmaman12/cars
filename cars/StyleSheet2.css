@@ -187,7 +187,7 @@ header, .navbar, .footer-container {
     }
 .title-container {
     display: flex;
-    justify-content: center; /* מרכז את התוכן אופקית */
+    justify-content: center; 
     margin: 0;
     margin-bottom:40px;
 }
