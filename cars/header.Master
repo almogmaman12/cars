@@ -15,7 +15,7 @@
         <h1 class="header-name " title="לחץ לדף הבית"><a href="home-page.aspx"><img src="imges/logocar.png"/> אתר מכוניות</a></h1>
 
         <nav class="logininfo" >
-            <a href="">התחבר\הירשם</a>
+            <a href="login.aspx">התחבר\הירשם</a>
             <h4>'שלום משתמש'</h4>
         </nav>
     </div>
@@ -33,7 +33,7 @@
         </div>
     <footer class="footer-container">
     <p> אתר מכוניות.</p>
-    <p><a href="home-page.aspx">דף הבית</a> |<a href="models.aspx">דגמי רכב</a>| <a href="Industry Innovations.aspx">חידושים בתעשייה</a>| <a href="guides.aspx">תחזוקת רכב</a>| <a href="#">התחבר</a></p>
+    <p><a href="home-page.aspx">דף הבית</a> |<a href="models.aspx">דגמי רכב</a>| <a href="Industry Innovations.aspx">חידושים בתעשייה</a>| <a href="guides.aspx">תחזוקת רכב</a>| <a href="login.aspx">התחבר</a></p>
 </footer>
         </div>
 

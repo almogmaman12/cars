@@ -21,7 +21,7 @@
         הצטרפו אלינו למידע נוסף על דגמי רכב חדשים, חידושים בתעשייה, וטיפים לשמירה על רכבכם!
     </p>
     <div style="text-align: center;">
-        <button onclick="window.location.href=''">הצטרף עכשיו</button>
+        <button onclick="window.location.href='login.aspx'">הצטרף עכשיו</button>
     </div>
 </section>
 
