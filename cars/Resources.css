@@ -1,0 +1,180 @@
+﻿/* עיצוב כללי */
+.registered-users-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #ffffff, #f0f8ff);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* כותרת ראשית */
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #004080;
+    margin-bottom: 10px; /* רווח קטן יותר מתחת לכותרת */
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* עיצוב קישורים שימושיים */
+.section-title {
+    font-size: 2rem;
+    color: #0066cc;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.links-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .links-list li {
+        background: #f9fbfd;
+        border: 1px solid #e1e8ed;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+        .links-list li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(to bottom, #e6f7ff, #ffffff);
+        }
+
+.useful-link {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #004080;
+    text-decoration: none;
+}
+
+    .useful-link:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+.link-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* מדריך מונחים */
+.glossary-list {
+    margin: 0;
+    padding: 0;
+}
+
+.term {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #004080;
+    margin-top: 25px;
+}
+
+.definition {
+    margin-left: 20px;
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* קופסה שימושית */
+.useful-box {
+    display: block;
+    background: linear-gradient(to bottom, #004080, #0066cc);
+    color: #f9fcff;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+}
+
+    .useful-box:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(to bottom, #0066cc, #004080);
+    }
+
+.box-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.link-description {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: #f2f8fc;
+    line-height: 1.6;
+}
+
+/* ניווט למונחים */
+.glossary-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px; /* רווח קטן יותר מעל הסרגל */
+    margin-bottom: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-button {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #007ac2, #003366);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+    .nav-button:hover {
+        background: linear-gradient(to bottom, #0056b3, #002244);
+        transform: scale(1.1);
+    }
+
+/* מדריך מונחים */
+.glossary-list {
+    margin: 0;
+    padding: 0;
+}
+
+.term {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #003366;
+    margin-top: 20px;
+}
+
+.definition {
+    margin-left: 20px;
+    color: #555;
+    font-size: 1rem;
+}
