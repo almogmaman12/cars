@@ -17,11 +17,12 @@
                         
                         <div class="expand-icon">&#9660;</div>
                     </div>
+                    <a class="company"  href="https://www.toyota.co.il" onclick="event.stopPropagation();">לאתר החברה</a> &nbsp --- &nbsp <a class="company" style="font-size:16px; font-weight:500; letter-spacing: 0.3px;" href="https://he.wikipedia.org/wiki/טויוטה" onclick="event.stopPropagation();">למד עוד</a>
                     <p>חברת רכב יפנית בינלאומית, שנוסדה בשנת 1937 על ידי <a class="link" href="https://en.wikipedia.org/wiki/Kiichiro_Toyoda" onclick="event.stopPropagation();"> קישירו טויודה</a>. החברה נחשבת לאחת מיצרניות הרכב הגדולות והמשפיעות בעולם, והיא מייצרת מגוון רחב של כלי רכב: מכוניות נוסעים, רכבי שטח, רכבי פנאי, ומשאיות קלות.</p>
                     <p class="expand-text">לחץ להרחבה</p>
                 </div>
                 <div class="expanded-content">
-                    <a class="company"  href="https://www.toyota.co.il" onclick="event.stopPropagation();">לאתר החברה</a> &nbsp --- &nbsp <a class="company" style="font-size:16px; font-weight:500; letter-spacing: 0.3px;" href="https://he.wikipedia.org/wiki/טויוטה" onclick="event.stopPropagation();">למד עוד</a>
+                    
                     <h4>דגמים מובילים</h4>
                     <p>דגם 1: טויוטה קורולה - מכונית קומפקטית עם ביצועים מצוינים.</p>
                     <p>דגם 2: טויוטה קאמרי - נוחות ומרווח פנימי מרשימים.</p>

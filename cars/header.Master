@@ -24,8 +24,7 @@
         <a href="home-page.aspx">דף הבית</a> &nbsp |&nbsp
         <a href="models.aspx">דגמי רכב</a>&nbsp |&nbsp
         <a href="Industry Innovations.aspx">חידושים בתעשייה</a>&nbsp |&nbsp
-        <a href="guides.aspx">תחזוקת רכב</a>&nbsp |&nbsp
-        <a href="">דף</a>
+        <a href="guides.aspx">תחזוקת רכב</a> 
     </nav>
         <div class="content-container">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
